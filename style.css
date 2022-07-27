@@ -4,7 +4,8 @@
   --very-dark-cyan : hsl(179, 100%, 13%);
   --transparent-white : hsla(0, 0%, 100%, 0.75);
   --very-ligth-grey : hsl(0, 0%, 95%);
-  --titles-family : 'Big Shoulders Display', cursive;;
+  --titles-family : 'Big Shoulders Display', cursive;
+  --background : #F2F2F2;
 }
 
 button{
@@ -32,7 +33,7 @@ p{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
+  color: var(--very-ligth-grey);
   font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -42,7 +43,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--transparent-white);
+  background-color: var(--background);
 }
 
 .cards{
@@ -76,7 +77,7 @@ p{
   text-transform: uppercase;
   font-weight: 700;
   font-size: 2.5rem;
-  color: var(--transparent-white);
+  color: white;
 }
 
 .card-description{
